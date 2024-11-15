@@ -1,0 +1,19 @@
+.block{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    align-items: center;
+    width: 80vw;
+    background-color: rgba(234, 208, 185, 0.5);
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap; /* Забезпечує розподіл елементів на декілька рядків */
+    justify-content: center; /* Центрує продукти по горизонталі */
+    gap: 30px; /* Відстань між елементами */
+    padding: 20px;
+    margin-top: 20px;
+}

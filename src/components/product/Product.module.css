@@ -1,0 +1,75 @@
+.main {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4; /* Світло-сірий фон */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Плавний ефект при наведенні */
+    max-width: 450px;
+    text-align: center;
+}
+
+.main:hover {
+    transform: translateY(-5px); /* Легке підняття при наведенні */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Підсилена тінь при наведенні */
+}
+
+/* Стиль для зображення товару */
+.main img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+/* Заголовки та текстові елементи */
+.main h4 {
+    font-family: 'Arial', sans-serif;
+    color: #de1818;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+/* Коментарі */
+.main p {
+    font-size: 14px;
+    color: #666; /* Світло-сірий текст для коментарів */
+    margin: 5px 0;
+}
+
+/* Маленька дата */
+.main small {
+    font-size: 12px;
+    color: #888; /* Світло-сірий для дати */
+    display: block;
+    margin-top: 5px;
+}
+
+/* Кнопка для видалення */
+button {
+    background-color: #ccc; /* Світло-сірий фон */
+    border: 1px solid #bbb;
+    color: #726c6c;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #bbb; /* Підсвітка при наведенні */
+    transform: translateY(-2px); /* Легке підняття кнопки при наведенні */
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5); /* Легкий акцент при фокусі */
+}
